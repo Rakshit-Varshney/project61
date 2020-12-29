@@ -1,0 +1,62 @@
+html {
+    scroll-behavior:smooth;
+}
+body {
+text-align:center;
+  color:white;
+background: green;
+}
+.menu { 
+    list-style: none;
+  font-family:cursive;
+  float:right;
+
+    cursor: pointer;
+   top:  10px;
+}
+li{
+    display: inline;
+}
+li a:hover {
+  background-color: red;
+}
+.favorite{
+    margin-top: 50px;
+    background: red;
+}
+
+.hobby{
+    background: black;
+}
+.My-hobby{
+    font-family: 'Hanalei Fill', cursive;
+    font-size: 50;
+}
+.header{
+    height: 10px;
+}
+.c1{
+    height: 250px;
+        width: 250px;
+}
+.c2{
+    height: 250px;
+        width: 250px;
+}
+.Inspiration{
+    background-color: yellow;
+    color:black;
+}
+.work{
+    background-color: orange;
+}
+img{
+    transition: transform .2s;
+    border: 10px solid #AAAAAA;
+}
+img:hover{
+    transform: scale(0.9);
+}
+.Contact{
+    
+}
